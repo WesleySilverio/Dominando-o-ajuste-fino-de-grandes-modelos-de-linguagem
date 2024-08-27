@@ -2,7 +2,7 @@
 
 O ajuste fino melhora as capacidades dos LLMs pré-treinados, permitindo que eles aprendam novos conhecimentos específicos de um determinado domínio, assim, sabendo até mesmo conceitos/terminologias avançadas. Para isso será utilizado técnicas de ajuste fino com eficiência de parâmetros (**PEFT**), como **LoRA** e **QLoRA**.
 
-**Código Completo**: [Dominando o ajuste fino de grandes modelos de linguagem](https://colab.research.google.com/drive/1x-0E9xwxe-VYdtt0MVOmP4MImULfpppu?usp=sharing)
+**Código Completo (Colab)**: [Dominando o ajuste fino de grandes modelos de linguagem](https://colab.research.google.com/drive/1x-0E9xwxe-VYdtt0MVOmP4MImULfpppu?usp=sharing)
 
 ## Conceitos
 **LoRA**: Denominado como Low Rank Adaption, é um método que adiciona pequenos módulos de adaptação no modelo base e treina apenas os parâmetros provenientes desses módulos. Esses módulos adaptativos são matrizes bem menores comparadas com as dimensões dos módulos lineares base, logo além de conseguirem receber os mesmos prompts de entrada eles conseguem produzir uma saída compatível com a arquitetura existente, cedendo uma computação de parâmetros mais rápida do que as dos módulos originais do modelo.
